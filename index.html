@@ -11,7 +11,46 @@
 favicon
 --><link rel="icon" type="image/x-icon" href="./image.png">
 </head>
-
+<style>
+    topnav a{
+    background-color: #f4f6f9;
+    position: absolute;
+}
+.Admin a.active{
+     text-decoration: none;
+     background-color: rgb(232, 169, 11);
+            color: yellow;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            padding: 12px;
+}
+.Admin a:hover{
+    color: rgba(126, 120, 29, 0.573);
+            transform: translateY(-4px);
+            background-image:linear-gradient(to right, rgb(197, 174, 71), rgb(255, 136, 0));
+            border-radius: 10px;
+}
+ table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+</style>
 <body>
     <!-- Navigation -->
     <nav id="navbar">
@@ -73,6 +112,48 @@ favicon
                 </div>
             </div>
         </div>
+        <pre>
+
+
+        </pre>
+        <div class="Admin">
+            <a class="active" href="admin.html" style="font-size: 30px;">Administration Details</a>
+        </div>
+        <table>
+    <caption>UCE Student Performance Grades</caption>
+    <tr>
+        <th>Grade</th>
+        <th>Number of grades</th>
+        <th>Performance Level</th>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>16 </td>
+        <td>Excellent</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>258</td>
+        <td>Very Good</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td>1338</td>
+        <td>Good</td>
+    </tr>
+    <tr>
+        <td>D</td>
+        <td>295</td>
+        <td>Average</td>
+    </tr>
+    <tr>
+        <td>E</td>
+        <td>25</td>
+        <td>Basic</td>
+    </tr>
+</table>
+<h2 style="text-align: center;">Possition: 96<sup>th</sup> Nationwide</h2>
+<h2 style="text-align: center;">3<sup>rd</sup> Best Seed School</h2>
     </section>
 
     <!-- Portfolio Section -->
@@ -136,8 +217,9 @@ favicon
     <section class="partners">
         <h4 style="font-size: 36px; color: black; text-align: center;">Students of Yellow At BBS Television</h4>
         <div class="vid">
-            <a href="video.html" style="font-size: 30px;">Click to watch video</a>
+            <a href="https://youtu.be/zh6hWuOsxa4" target="_blank">Click to watch video</a>
         </div>
+         
         <h4></h4>
       <div class="part1">
         <h4 style="font-size: 30px; text-align: center;">Our Partners</h4>

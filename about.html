@@ -12,6 +12,68 @@
 favicon
 --><link rel="icon" type="image/x-icon" href="./image.png">
 </head>
+<style>
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    width:250px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card-body{
+    padding:15px;
+    text-align:center;
+}
+
+.card-body h4{
+    margin:0;
+    color:#333;
+}
+
+.card-body p{
+    color:#666;
+    font-size:14px;
+}
+
+/* Tablet */
+@media (max-width:768px){
+    .card{
+        width:50%;
+    }
+}
+
+/* Mobile */
+@media (max-width:480px){
+    .card{
+        width:100%;
+    }
+}
+</style>
 <body>
     <!-- Navigation -->
     <nav id="navbar">
@@ -140,7 +202,46 @@ Today, that small seed has blossomed into a thriving institution under the stewa
             <p>
                 At Mateete Comprehensive Seed Secondary School, we are committed to nurturing well-rounded learners who are preparedto meet the challenges of a rapidly changing world.<br>  Our website serves not only as a window into our daily operations but also as a reflection of our dedication to quality education, discipline, and community development. As you explore the various pages, we hope you gain a deeper understanding of our mission and the unique opportunities we offer. 
 We warmly welcome you to engage with our content, celebrate our achievements, and become part of the Mateete Comprehensive family. 
-            </p>
+<div class="gallery">
+
+<div class="card">
+<img src="mese.jpg" alt="School Event">
+<div class="card-body">
+<h4>Fully facilitated science <br>
+labaratory</h4>
+<p>Biology Practical</p>
+</div>
+</div>
+
+<div class="card">
+<img src="game.jpg" alt="Sports">
+<div class="card-body">
+<h4>ICT Club day</h4>
+<p>A computer skill competition</p>
+</div>
+</div>
+
+<div class="card">
+<img src="lab (1).JPG" alt="Classroom">
+<div class="card-body">
+<h4>Co-curricular activities</h4>
+<p>Gaming competition</p>
+</div>
+</div>
+
+<div class="card">
+<img src="lab (2).JPG" alt="Library">
+<div class="card-body">
+<h4>Ict room</h4>
+<p>Highly facilitated computer room</p>
+</div>
+</div>
+
+
+
+</div>
+          
+</p>
            
         </div>
     </section>
